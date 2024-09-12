@@ -1,0 +1,41 @@
+name: vakinha_burguer_mobile
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  get_storage: ^2.1.1
+  intl: ^0.18.1
+  validatorless: ^1.2.3
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: mplus1
+      fonts:
+        - asset: assets/fonts/MPLUS1p-Regular.ttf
+          style: normal
+        - asset: assets/fonts/MPLUS1p-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/MPLUS1p-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MPLUS1p-ExtraBold.ttf
+          weight: 800
